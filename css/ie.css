@@ -1,0 +1,14 @@
+*+html{overflow:auto;}
+.sf-menu li{behavior:url(js/PIE.htc); position:relative;}
+
+.sf-menu>li>ul{top:50px !important;}
+.sf-menu>li>ul{behavior:url(js/PIE.htc);left:0;top:67px;}
+ #form-search input, #form-search-1 input{behavior:url(js/PIE.htc)xz; position:relative;}
+.main-aside, .button, h3, .head, header, #search input, #search .search_button, .box, .box-1{behavior:url(js/PIE.htc); position:relative;} 
+#search .search_button{padding:2px 10px 4px 10px;background: url(../images/bg-search-button.jpg) 0 0 repeat-x #2f2f2f;}
+/*.button{-pie-background:linear-gradient(#212121 0%, #1f1f1f 36%, #151515 88%, #151515 100%);behavior:url(js/PIE.htc)xz; position:relative;}
+.button:hover{-pie-background:linear-gradient(#0d0d0d 0%, #0f0f0f 36%, #191919 88%, #191919 100%);behavior:url(js/PIE.htc)xz; position:relative;}*/
+.banner a{behavior:url(js/PIE.htc); position:relative;padding:7px 11px 7px;}
+.button{padding:8px 10px 7px;}
+.div-content{behavior:url(js/PIE.htc); position:relative;}
+ul.sf-menu>li>a{padding:13px 21px 13px 19px;}

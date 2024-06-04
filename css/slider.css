@@ -1,0 +1,37 @@
+/*--------- slider ---------*/
+#slide {width: 980px;position:relative;height:472px; overflow:hidden; z-index:1; margin:0 auto;border-bottom:1px solid #fff;}
+
+.slider {position: relative; z-index:1;width: 646px; height: 458px;overflow: visible !important;border:7px solid #262626;}
+.items {display:none;}
+
+.banner{width: 270px;
+position:absolute;
+top: -7px; 
+z-index:15; 
+height: 415px;
+right:-327px; 
+background: url(../images/bg-banner.jpg) 0 0 no-repeat;
+padding:0 30px 0 20px;}
+.banner>span{color:#fadb09;font-size:15px;line-height:18px;font-family: 'Oswald', sans-serif;text-transform:uppercase;
+display:block;margin:20px 0 10px 0;}
+.banner strong{font-family: 'Oswald', sans-serif;font-size:18px;line-height:22px;color:#fff;font-weight:normal;text-transform:uppercase;display:inline-block;margin:4px 0 0 0;}
+.banner strong span{display:inline-block;margin-top:6px;}
+.banner p{margin:13px 0 0 0;}
+.banner a{color:#fff;font-family: 'Oswald', sans-serif;font-size:15px;line-height:18px;display:inline-block;border:1px solid #f98704;background: url(../images/bg-banner-button.jpg) 0 0 repeat-x;text-transform:uppercase;padding:7px 11px 8px;
+border-radius: 5px;margin:17px 0 0 0;}
+.banner a:hover{color:#000 ;background:#fadb09;border:1px solid #b9a100;}
+
+.pagination {position:absolute; z-index:1000; background: url(../images/bg_pagination.jpg) 0 0 repeat-x;
+width:320px; height:57px;right:-327px;bottom:-7px; }
+.pagination li {float:left;background: url(../images/bg-li-pagination.jpg) left 0 no-repeat;font-family: 'Oswald', sans-serif;display:inline-block;}
+.pagination li:first-child{background: url(../images/bg-li-transparent.png) 0 0 no-repeat;}
+.pagination li:first-child a{}
+.pagination a {display:block; width:49px; height:14px;text-align:center;
+font-size:18px;color:#fff;line-height:22px;padding:15px 0 27px 4px;background: url(../images/pagination.png) 0 -57px no-repeat;-moz-transition: background 0.5s ease;
+-webkit-transition: background 0.5s ease;
+-o-transition: background 0.5s ease;}
+.pagination li.current a, .pagination li:hover a{background: url(../images/pagination.png) 0 0 no-repeat;color:#fadb09;}
+
+
+
+
